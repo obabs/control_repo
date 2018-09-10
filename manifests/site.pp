@@ -1,5 +1,5 @@
-node default{
-file {'/etc/issue';
-     ensure => file,
-  } 
-}
+node default {
+  file {'/etc/issue':
+    ensure => file,
+    }
+  }
