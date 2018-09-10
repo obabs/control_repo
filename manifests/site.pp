@@ -1,6 +1,7 @@
 node default {
   file {'/etc/issue':
-    ensure => file,
-    content => 'This is the Puppet Client',
+    ensure   => file,
+    content  => 'This is the Puppet Client',
+    owner    => 'root',
     }
   }
